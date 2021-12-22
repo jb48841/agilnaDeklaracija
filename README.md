@@ -1,2 +1,1 @@
-# agilnaDeklaracija
-kod aplikacije za pretragu popisnika Agilne deklaracije
+Aplikacija za pretraživanje potpisnika agilne deklaracije (manifest)

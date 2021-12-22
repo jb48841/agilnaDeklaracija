@@ -1,0 +1,27 @@
+.container {
+  padding-top: 30px;
+  width: 300px;
+  margin: auto;
+}
+
+.input {
+  padding: 5px 15px;
+  width: 300px;
+}
+
+.person-list {
+  margin-top: 30px;
+}
+
+.person {
+  list-style: none;
+  margin: 10px 0;
+  padding: 10px;
+  background: #eee;
+  display: flex;
+  justify-content: space-between;
+}
+
+.person-name {
+  color: black;
+}
