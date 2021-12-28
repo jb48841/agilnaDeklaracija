@@ -5,7 +5,7 @@ import BaseRouter from "./routes";
 const App = () => {
   return (
     <div>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <BaseRouter />
       </Router>
     </div>
