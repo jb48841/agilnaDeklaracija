@@ -10,7 +10,7 @@ function SearchList() {
     const [foundPersons, setfoundPersons] = useState([]);
 
     useEffect(() => {
-        fetch("http://127.0.0.1:8080/signatures")
+        fetch("https://agilna-deklaracija-backend.herokuapp.com/signatures")
             .then((res) => res.json())
             .then((result) => {
                 setIsLoaded(true);
