@@ -53,16 +53,18 @@ function SearchList() {
                         placeholder="Unesite ime potpisnika"
                     />
                     <div className="person-list">
-                        {foundPersons && foundPersons.length ? (
-                            foundPersons.map((person) => (
-                                <li className="person">
-                                    <span className="person-name">{person}</span>
-                                </li>
-                            ))
-                        ) : []}
-                    </div>
-                </div>
-            </div>
+                        {
+                            foundPersons && foundPersons.length ? (
+                                foundPersons.map((person) => (
+                                    <li className="person">
+                                        <span className="person-name">{person}</span>
+                                    </li>
+                                ))
+                            ) : []
+                        }
+                    </div >
+                </div >
+            </div >
         );
     }
 }
